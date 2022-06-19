@@ -29,7 +29,6 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmMesailer));
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.label8 = new System.Windows.Forms.Label();
             this.txtAciklama = new System.Windows.Forms.TextBox();
@@ -312,9 +311,6 @@
             this.btnTumMesaileriOde.FlatAppearance.BorderSize = 0;
             this.btnTumMesaileriOde.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnTumMesaileriOde.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnTumMesaileriOde.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnTumMesaileriOde.ImageIndex = 19;
-            this.btnTumMesaileriOde.ImageList = this.ımageList1;
             this.btnTumMesaileriOde.Location = new System.Drawing.Point(162, 444);
             this.btnTumMesaileriOde.Name = "btnTumMesaileriOde";
             this.btnTumMesaileriOde.Size = new System.Drawing.Size(160, 44);
@@ -326,40 +322,18 @@
             // 
             // ımageList1
             // 
-            this.ımageList1.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("ımageList1.ImageStream")));
+            this.ımageList1.ColorDepth = System.Windows.Forms.ColorDepth.Depth8Bit;
+            this.ımageList1.ImageSize = new System.Drawing.Size(16, 16);
             this.ımageList1.TransparentColor = System.Drawing.Color.Transparent;
-            this.ımageList1.Images.SetKeyName(0, "confirm_icon-icons.com_66471.png");
-            this.ımageList1.Images.SetKeyName(1, "Variation-80_icon-icons.com_57243.png");
-            this.ımageList1.Images.SetKeyName(2, "logo_orange_ccleaner_clean_icon_134365.png");
-            this.ımageList1.Images.SetKeyName(3, "1486503744-backspace-clean-clear-delete-remove-erase_81258.png");
-            this.ımageList1.Images.SetKeyName(4, "off_downnearexit_apagado_abajo_6017.png");
-            this.ımageList1.Images.SetKeyName(5, "system_software_update_22485.png");
-            this.ımageList1.Images.SetKeyName(6, "1486504830-delete-dustbin-empty-recycle-recycling-remove-trash_81361.png");
-            this.ımageList1.Images.SetKeyName(7, "add_12966 (1).png");
-            this.ımageList1.Images.SetKeyName(8, "calendar_office_day_1474.png");
-            this.ımageList1.Images.SetKeyName(9, "organizer_calendar_clock_pencil_10047.png");
-            this.ımageList1.Images.SetKeyName(10, "add_12966.png");
-            this.ımageList1.Images.SetKeyName(11, "increase_25373.png");
-            this.ımageList1.Images.SetKeyName(12, "list_992.png");
-            this.ımageList1.Images.SetKeyName(13, "Menu_icon_icon-icons.com_71858.png");
-            this.ımageList1.Images.SetKeyName(14, "business_application_addmale_useradd_insert_add_user_client_2312.png");
-            this.ımageList1.Images.SetKeyName(15, "businessapplication_binarytree_tree_negocio_2316.png");
-            this.ımageList1.Images.SetKeyName(16, "businessapplication_binarytree_tree_negocio_2316.ico");
-            this.ımageList1.Images.SetKeyName(17, "refresh_update_15608.png");
-            this.ımageList1.Images.SetKeyName(18, "42497departmentstore_99030.png");
-            this.ımageList1.Images.SetKeyName(19, "usd-crypto-cryptocurrency-cryptocurrencies-cash-money-bank-payment_95707.png");
             // 
             // btnMesaiOde
             // 
             this.btnMesaiOde.FlatAppearance.BorderSize = 0;
             this.btnMesaiOde.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnMesaiOde.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnMesaiOde.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnMesaiOde.ImageIndex = 19;
-            this.btnMesaiOde.ImageList = this.ımageList1;
-            this.btnMesaiOde.Location = new System.Drawing.Point(317, 444);
+            this.btnMesaiOde.Location = new System.Drawing.Point(710, 444);
             this.btnMesaiOde.Name = "btnMesaiOde";
-            this.btnMesaiOde.Size = new System.Drawing.Size(117, 44);
+            this.btnMesaiOde.Size = new System.Drawing.Size(79, 44);
             this.btnMesaiOde.TabIndex = 28;
             this.btnMesaiOde.Text = "Mesai Öde";
             this.btnMesaiOde.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -371,9 +345,6 @@
             this.btnGuncelle.FlatAppearance.BorderSize = 0;
             this.btnGuncelle.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnGuncelle.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnGuncelle.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnGuncelle.ImageIndex = 5;
-            this.btnGuncelle.ImageList = this.ımageList1;
             this.btnGuncelle.Location = new System.Drawing.Point(450, 444);
             this.btnGuncelle.Name = "btnGuncelle";
             this.btnGuncelle.Size = new System.Drawing.Size(102, 44);
@@ -388,12 +359,9 @@
             this.btnSil.FlatAppearance.BorderSize = 0;
             this.btnSil.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSil.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSil.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnSil.ImageIndex = 6;
-            this.btnSil.ImageList = this.ımageList1;
-            this.btnSil.Location = new System.Drawing.Point(570, 444);
+            this.btnSil.Location = new System.Drawing.Point(795, 444);
             this.btnSil.Name = "btnSil";
-            this.btnSil.Size = new System.Drawing.Size(78, 44);
+            this.btnSil.Size = new System.Drawing.Size(33, 44);
             this.btnSil.TabIndex = 30;
             this.btnSil.Text = "Sil";
             this.btnSil.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -405,9 +373,6 @@
             this.btnPersonelMesaileri.FlatAppearance.BorderSize = 0;
             this.btnPersonelMesaileri.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnPersonelMesaileri.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnPersonelMesaileri.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnPersonelMesaileri.ImageIndex = 9;
-            this.btnPersonelMesaileri.ImageList = this.ımageList1;
             this.btnPersonelMesaileri.Location = new System.Drawing.Point(14, 444);
             this.btnPersonelMesaileri.Name = "btnPersonelMesaileri";
             this.btnPersonelMesaileri.Size = new System.Drawing.Size(151, 44);
@@ -422,9 +387,6 @@
             this.btnTemizle.FlatAppearance.BorderSize = 0;
             this.btnTemizle.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnTemizle.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnTemizle.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnTemizle.ImageIndex = 2;
-            this.btnTemizle.ImageList = this.ımageList1;
             this.btnTemizle.Location = new System.Drawing.Point(660, 444);
             this.btnTemizle.Name = "btnTemizle";
             this.btnTemizle.Size = new System.Drawing.Size(93, 44);
@@ -436,20 +398,10 @@
             // 
             // btnCikis
             // 
-            this.btnCikis.FlatAppearance.BorderSize = 0;
-            this.btnCikis.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnCikis.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCikis.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnCikis.ImageIndex = 4;
-            this.btnCikis.ImageList = this.ımageList1;
-            this.btnCikis.Location = new System.Drawing.Point(759, 444);
+            this.btnCikis.Location = new System.Drawing.Point(0, 0);
             this.btnCikis.Name = "btnCikis";
-            this.btnCikis.Size = new System.Drawing.Size(83, 44);
-            this.btnCikis.TabIndex = 30;
-            this.btnCikis.Text = "Çıkış";
-            this.btnCikis.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnCikis.UseVisualStyleBackColor = true;
-            this.btnCikis.Click += new System.EventHandler(this.btnCikis_Click);
+            this.btnCikis.Size = new System.Drawing.Size(75, 23);
+            this.btnCikis.TabIndex = 0;
             // 
             // frmMesailer
             // 
@@ -457,13 +409,8 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.SkyBlue;
             this.ClientSize = new System.Drawing.Size(854, 511);
-            this.Controls.Add(this.btnCikis);
-            this.Controls.Add(this.btnTemizle);
             this.Controls.Add(this.btnSil);
-            this.Controls.Add(this.btnPersonelMesaileri);
-            this.Controls.Add(this.btnGuncelle);
             this.Controls.Add(this.btnMesaiOde);
-            this.Controls.Add(this.btnTumMesaileriOde);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.label1);

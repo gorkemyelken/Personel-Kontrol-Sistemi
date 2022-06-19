@@ -35,18 +35,6 @@ namespace Personel_Kontrol_Sistemi
             Application.Exit();
         }
 
-        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
-        {
-            frmSifremiUnuttum frm = new frmSifremiUnuttum();
-            frm.ShowDialog();
-        }
-
-        private void btnKayitOl_Click(object sender, EventArgs e)
-        {
-            frmYeniKullanici frm = new frmYeniKullanici();
-            frm.ShowDialog();
-        }
-
         private void frmKullanici_Load(object sender, EventArgs e)
         {
             

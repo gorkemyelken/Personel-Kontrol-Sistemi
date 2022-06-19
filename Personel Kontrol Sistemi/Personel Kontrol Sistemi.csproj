@@ -109,18 +109,6 @@
     <Compile Include="frmPersonelMesaileri.Designer.cs">
       <DependentUpon>frmPersonelMesaileri.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmSifremiUnuttum.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmSifremiUnuttum.Designer.cs">
-      <DependentUpon>frmSifremiUnuttum.cs</DependentUpon>
-    </Compile>
-    <Compile Include="frmYeniKullanici.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmYeniKullanici.Designer.cs">
-      <DependentUpon>frmYeniKullanici.cs</DependentUpon>
-    </Compile>
     <Compile Include="izin.cs" />
     <Compile Include="Kullanicilar.cs" />
     <Compile Include="Mesailer.cs" />
@@ -157,12 +145,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmPersonelMesaileri.resx">
       <DependentUpon>frmPersonelMesaileri.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="frmSifremiUnuttum.resx">
-      <DependentUpon>frmSifremiUnuttum.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="frmYeniKullanici.resx">
-      <DependentUpon>frmYeniKullanici.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

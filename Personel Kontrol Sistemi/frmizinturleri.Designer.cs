@@ -176,9 +176,7 @@
         private System.Windows.Forms.Button btnEkle;
         private System.Windows.Forms.Button btnGuncelle;
         private System.Windows.Forms.Button btnSil;
-        private System.Windows.Forms.Button btnCikis;
         private System.Windows.Forms.ColumnHeader izinTurID;
         private System.Windows.Forms.ColumnHeader izinTuru;
-        private System.Windows.Forms.ImageList ımageList1;
     }
 }
