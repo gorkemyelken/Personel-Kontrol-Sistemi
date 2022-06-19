@@ -115,12 +115,6 @@
     <Compile Include="frmSifremiUnuttum.Designer.cs">
       <DependentUpon>frmSifremiUnuttum.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmYapilanZamlar.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmYapilanZamlar.Designer.cs">
-      <DependentUpon>frmYapilanZamlar.cs</DependentUpon>
-    </Compile>
     <Compile Include="frmYeniKullanici.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -166,9 +160,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmSifremiUnuttum.resx">
       <DependentUpon>frmSifremiUnuttum.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="frmYapilanZamlar.resx">
-      <DependentUpon>frmYapilanZamlar.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmYeniKullanici.resx">
       <DependentUpon>frmYeniKullanici.cs</DependentUpon>

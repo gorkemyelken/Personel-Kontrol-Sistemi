@@ -17,7 +17,34 @@ namespace Personel_Kontrol_Sistemi
         {
             InitializeComponent();
         }
+        public static SqlDataReader ComboyaPersonelGetir(ComboBox cmb)
+        {
+            Database.baglanti.Open();
+            SqlCommand komut = new SqlCommand("select PersonelID,Adi,soyadi from Personeller ", Database.baglanti);
+            SqlDataReader dr = komut.ExecuteReader();
+            while (dr.Read())
+            {
+                cmb.Items.Add(dr[0] + "." + dr[1] + " " + dr[2]);
+            }
+            Database.baglanti.Close();
+            return dr;
+        }
+        public static SqlDataReader ComboSecilirsePersonelIDGetir(ComboBox combo, Label lbl_PersonelID)
+        {
+            Database.baglanti.Open();
+            SqlCommand komut = new SqlCommand("select PersonelID,Adi,soyadi from Personeller  ", Database.baglanti);
+            SqlDataReader dr = komut.ExecuteReader();
+            while (dr.Read())
+            {
+                if (combo.SelectedItem.ToString() == dr[0] + "." + dr[1] + " " + dr[2])
+                {
+                    lbl_PersonelID.Text = dr[0].ToString();
+                }
+            }
+            Database.baglanti.Close();
+            return dr;
 
+        }
         private void frmMesaiEkle_Load(object sender, EventArgs e)
         {
             int yil =DateTime.Now.Year;
@@ -26,13 +53,13 @@ namespace Personel_Kontrol_Sistemi
             {
                 comboYil.Items.Add(i);
             }
-            YapilanZamlar.ComboyaPersonelGetir(comboPersonelAdsoyad);
+            ComboyaPersonelGetir(comboPersonelAdsoyad);
         }
         Label lbl;
         private void comboPersonelAdsoyad_SelectedIndexChanged(object sender, EventArgs e)
         {
             lbl = new Label();
-            YapilanZamlar.ComboSecilirsePersonelIDGetir(comboPersonelAdsoyad,lbl);
+            ComboSecilirsePersonelIDGetir(comboPersonelAdsoyad,lbl);
             MessageBox.Show(lbl.Text);
         }
 
