@@ -28,8 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmizinturleri));
             this.listView1 = new System.Windows.Forms.ListView();
             this.izinTurID = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.izinTuru = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
@@ -40,8 +38,6 @@
             this.btnEkle = new System.Windows.Forms.Button();
             this.btnGuncelle = new System.Windows.Forms.Button();
             this.btnSil = new System.Windows.Forms.Button();
-            this.btnCikis = new System.Windows.Forms.Button();
-            this.ımageList1 = new System.Windows.Forms.ImageList(this.components);
             this.SuspendLayout();
             // 
             // listView1
@@ -111,12 +107,9 @@
             this.btnEkle.FlatAppearance.BorderSize = 0;
             this.btnEkle.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnEkle.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.btnEkle.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnEkle.ImageIndex = 3;
-            this.btnEkle.ImageList = this.ımageList1;
-            this.btnEkle.Location = new System.Drawing.Point(12, 253);
+            this.btnEkle.Location = new System.Drawing.Point(298, 253);
             this.btnEkle.Name = "btnEkle";
-            this.btnEkle.Size = new System.Drawing.Size(81, 46);
+            this.btnEkle.Size = new System.Drawing.Size(41, 46);
             this.btnEkle.TabIndex = 3;
             this.btnEkle.Text = "Ekle";
             this.btnEkle.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -128,9 +121,6 @@
             this.btnGuncelle.FlatAppearance.BorderSize = 0;
             this.btnGuncelle.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnGuncelle.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.btnGuncelle.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnGuncelle.ImageIndex = 1;
-            this.btnGuncelle.ImageList = this.ımageList1;
             this.btnGuncelle.Location = new System.Drawing.Point(108, 253);
             this.btnGuncelle.Name = "btnGuncelle";
             this.btnGuncelle.Size = new System.Drawing.Size(98, 46);
@@ -145,44 +135,14 @@
             this.btnSil.FlatAppearance.BorderSize = 0;
             this.btnSil.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSil.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.btnSil.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnSil.ImageIndex = 2;
-            this.btnSil.ImageList = this.ımageList1;
-            this.btnSil.Location = new System.Drawing.Point(212, 253);
+            this.btnSil.Location = new System.Drawing.Point(345, 253);
             this.btnSil.Name = "btnSil";
-            this.btnSil.Size = new System.Drawing.Size(73, 46);
+            this.btnSil.Size = new System.Drawing.Size(33, 46);
             this.btnSil.TabIndex = 3;
             this.btnSil.Text = "Sil";
             this.btnSil.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnSil.UseVisualStyleBackColor = true;
             this.btnSil.Click += new System.EventHandler(this.btnSil_Click);
-            // 
-            // btnCikis
-            // 
-            this.btnCikis.FlatAppearance.BorderSize = 0;
-            this.btnCikis.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnCikis.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.btnCikis.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnCikis.ImageIndex = 0;
-            this.btnCikis.ImageList = this.ımageList1;
-            this.btnCikis.Location = new System.Drawing.Point(300, 253);
-            this.btnCikis.Name = "btnCikis";
-            this.btnCikis.Size = new System.Drawing.Size(81, 46);
-            this.btnCikis.TabIndex = 3;
-            this.btnCikis.Text = "Çıkış";
-            this.btnCikis.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnCikis.UseVisualStyleBackColor = true;
-            this.btnCikis.Click += new System.EventHandler(this.btnCikis_Click);
-            // 
-            // ımageList1
-            // 
-            this.ımageList1.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("ımageList1.ImageStream")));
-            this.ımageList1.TransparentColor = System.Drawing.Color.Transparent;
-            this.ımageList1.Images.SetKeyName(0, "off_downnearexit_apagado_abajo_6017.png");
-            this.ımageList1.Images.SetKeyName(1, "system_software_update_22485.png");
-            this.ımageList1.Images.SetKeyName(2, "1486504830-delete-dustbin-empty-recycle-recycling-remove-trash_81361.png");
-            this.ımageList1.Images.SetKeyName(3, "add_12966.png");
-            this.ımageList1.Images.SetKeyName(4, "off_downnearexit_apagado_abajo_6017.png");
             // 
             // frmizinturleri
             // 
@@ -190,9 +150,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.SkyBlue;
             this.ClientSize = new System.Drawing.Size(390, 302);
-            this.Controls.Add(this.btnCikis);
             this.Controls.Add(this.btnSil);
-            this.Controls.Add(this.btnGuncelle);
             this.Controls.Add(this.btnEkle);
             this.Controls.Add(this.txtizinTuru);
             this.Controls.Add(this.label2);
