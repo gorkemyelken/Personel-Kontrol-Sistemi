@@ -29,13 +29,11 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmizinHareketLisetele));
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.btnizinTurleri = new System.Windows.Forms.Button();
             this.ımageList1 = new System.Windows.Forms.ImageList(this.components);
             this.btnGuncelle = new System.Windows.Forms.Button();
             this.btnSil = new System.Windows.Forms.Button();
-            this.btnCikis = new System.Windows.Forms.Button();
             this.btnEkle = new System.Windows.Forms.Button();
             this.txtizinHareketID = new System.Windows.Forms.TextBox();
             this.txtPersonelID = new System.Windows.Forms.TextBox();
@@ -61,7 +59,7 @@
             this.dataGridView1.Dock = System.Windows.Forms.DockStyle.Top;
             this.dataGridView1.Location = new System.Drawing.Point(0, 0);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(854, 334);
+            this.dataGridView1.Size = new System.Drawing.Size(561, 334);
             this.dataGridView1.TabIndex = 0;
             this.dataGridView1.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellDoubleClick);
             // 
@@ -70,12 +68,9 @@
             this.btnizinTurleri.FlatAppearance.BorderSize = 0;
             this.btnizinTurleri.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnizinTurleri.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.btnizinTurleri.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnizinTurleri.ImageIndex = 13;
-            this.btnizinTurleri.ImageList = this.ımageList1;
-            this.btnizinTurleri.Location = new System.Drawing.Point(342, 456);
+            this.btnizinTurleri.Location = new System.Drawing.Point(477, 456);
             this.btnizinTurleri.Name = "btnizinTurleri";
-            this.btnizinTurleri.Size = new System.Drawing.Size(111, 43);
+            this.btnizinTurleri.Size = new System.Drawing.Size(74, 43);
             this.btnizinTurleri.TabIndex = 1;
             this.btnizinTurleri.Text = "İzin Türleri";
             this.btnizinTurleri.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -84,34 +79,16 @@
             // 
             // ımageList1
             // 
-            this.ımageList1.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("ımageList1.ImageStream")));
+            this.ımageList1.ColorDepth = System.Windows.Forms.ColorDepth.Depth8Bit;
+            this.ımageList1.ImageSize = new System.Drawing.Size(16, 16);
             this.ımageList1.TransparentColor = System.Drawing.Color.Transparent;
-            this.ımageList1.Images.SetKeyName(0, "1486503744-backspace-clean-clear-delete-remove-erase_81258.png");
-            this.ımageList1.Images.SetKeyName(1, "off_downnearexit_apagado_abajo_6017.png");
-            this.ımageList1.Images.SetKeyName(2, "system_software_update_22485.png");
-            this.ımageList1.Images.SetKeyName(3, "1486504830-delete-dustbin-empty-recycle-recycling-remove-trash_81361.png");
-            this.ımageList1.Images.SetKeyName(4, "add_12966 (1).png");
-            this.ımageList1.Images.SetKeyName(5, "calendar_office_day_1474.png");
-            this.ımageList1.Images.SetKeyName(6, "organizer_calendar_clock_pencil_10047.png");
-            this.ımageList1.Images.SetKeyName(7, "add_12966.png");
-            this.ımageList1.Images.SetKeyName(8, "increase_25373.png");
-            this.ımageList1.Images.SetKeyName(9, "list_992.png");
-            this.ımageList1.Images.SetKeyName(10, "Menu_icon_icon-icons.com_71858.png");
-            this.ımageList1.Images.SetKeyName(11, "business_application_addmale_useradd_insert_add_user_client_2312.png");
-            this.ımageList1.Images.SetKeyName(12, "businessapplication_binarytree_tree_negocio_2316.png");
-            this.ımageList1.Images.SetKeyName(13, "Variation-80_icon-icons.com_57243.png");
-            this.ımageList1.Images.SetKeyName(14, "logo_orange_ccleaner_clean_icon_134365.png");
-            this.ımageList1.Images.SetKeyName(15, "1486503744-backspace-clean-clear-delete-remove-erase_81258.png");
             // 
             // btnGuncelle
             // 
             this.btnGuncelle.FlatAppearance.BorderSize = 0;
             this.btnGuncelle.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnGuncelle.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.btnGuncelle.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnGuncelle.ImageIndex = 2;
-            this.btnGuncelle.ImageList = this.ımageList1;
-            this.btnGuncelle.Location = new System.Drawing.Point(557, 456);
+            this.btnGuncelle.Location = new System.Drawing.Point(709, 389);
             this.btnGuncelle.Name = "btnGuncelle";
             this.btnGuncelle.Size = new System.Drawing.Size(109, 43);
             this.btnGuncelle.TabIndex = 1;
@@ -125,46 +102,23 @@
             this.btnSil.FlatAppearance.BorderSize = 0;
             this.btnSil.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSil.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.btnSil.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnSil.ImageIndex = 3;
-            this.btnSil.ImageList = this.ımageList1;
-            this.btnSil.Location = new System.Drawing.Point(672, 456);
+            this.btnSil.Location = new System.Drawing.Point(428, 456);
             this.btnSil.Name = "btnSil";
-            this.btnSil.Size = new System.Drawing.Size(76, 43);
+            this.btnSil.Size = new System.Drawing.Size(31, 43);
             this.btnSil.TabIndex = 1;
             this.btnSil.Text = "Sil";
             this.btnSil.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnSil.UseVisualStyleBackColor = true;
             this.btnSil.Click += new System.EventHandler(this.btnSil_Click);
             // 
-            // btnCikis
-            // 
-            this.btnCikis.FlatAppearance.BorderSize = 0;
-            this.btnCikis.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnCikis.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.btnCikis.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnCikis.ImageIndex = 1;
-            this.btnCikis.ImageList = this.ımageList1;
-            this.btnCikis.Location = new System.Drawing.Point(754, 456);
-            this.btnCikis.Name = "btnCikis";
-            this.btnCikis.Size = new System.Drawing.Size(87, 43);
-            this.btnCikis.TabIndex = 1;
-            this.btnCikis.Text = "Çıkış";
-            this.btnCikis.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnCikis.UseVisualStyleBackColor = true;
-            this.btnCikis.Click += new System.EventHandler(this.btnCikis_Click);
-            // 
             // btnEkle
             // 
             this.btnEkle.FlatAppearance.BorderSize = 0;
             this.btnEkle.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnEkle.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.btnEkle.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnEkle.ImageIndex = 7;
-            this.btnEkle.ImageList = this.ımageList1;
-            this.btnEkle.Location = new System.Drawing.Point(468, 456);
+            this.btnEkle.Location = new System.Drawing.Point(354, 456);
             this.btnEkle.Name = "btnEkle";
-            this.btnEkle.Size = new System.Drawing.Size(83, 43);
+            this.btnEkle.Size = new System.Drawing.Size(40, 43);
             this.btnEkle.TabIndex = 1;
             this.btnEkle.Text = "Ekle";
             this.btnEkle.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -287,7 +241,7 @@
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label7.Location = new System.Drawing.Point(597, 357);
+            this.label7.Location = new System.Drawing.Point(31, 470);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(60, 15);
             this.label7.TabIndex = 3;
@@ -296,7 +250,7 @@
             // txtAciklama
             // 
             this.txtAciklama.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.txtAciklama.Location = new System.Drawing.Point(661, 354);
+            this.txtAciklama.Location = new System.Drawing.Point(99, 436);
             this.txtAciklama.Multiline = true;
             this.txtAciklama.Name = "txtAciklama";
             this.txtAciklama.Size = new System.Drawing.Size(180, 68);
@@ -307,7 +261,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.SkyBlue;
-            this.ClientSize = new System.Drawing.Size(854, 511);
+            this.ClientSize = new System.Drawing.Size(561, 511);
             this.Controls.Add(this.dateTimeBitis);
             this.Controls.Add(this.dateTimeBaslangic);
             this.Controls.Add(this.comboizinTuru);
@@ -322,9 +276,7 @@
             this.Controls.Add(this.txtPersonelID);
             this.Controls.Add(this.txtAciklama);
             this.Controls.Add(this.txtizinHareketID);
-            this.Controls.Add(this.btnCikis);
             this.Controls.Add(this.btnSil);
-            this.Controls.Add(this.btnGuncelle);
             this.Controls.Add(this.btnEkle);
             this.Controls.Add(this.btnizinTurleri);
             this.Controls.Add(this.dataGridView1);
@@ -344,7 +296,6 @@
         private System.Windows.Forms.Button btnizinTurleri;
         private System.Windows.Forms.Button btnGuncelle;
         private System.Windows.Forms.Button btnSil;
-        private System.Windows.Forms.Button btnCikis;
         private System.Windows.Forms.Button btnEkle;
         private System.Windows.Forms.TextBox txtizinHareketID;
         private System.Windows.Forms.TextBox txtPersonelID;
