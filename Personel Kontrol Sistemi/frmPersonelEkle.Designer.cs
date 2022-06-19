@@ -31,7 +31,6 @@ namespace Personel_Kontrol_Sistemi
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmPersonelEkle));
             this.txtAdi = new System.Windows.Forms.TextBox();
             this.txtSoyadi = new System.Windows.Forms.TextBox();
             this.txtTelefon = new System.Windows.Forms.TextBox();
@@ -218,11 +217,10 @@ namespace Personel_Kontrol_Sistemi
             this.btnEkle.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnEkle.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.btnEkle.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnEkle.ImageIndex = 0;
             this.btnEkle.ImageList = this.ımageList1;
-            this.btnEkle.Location = new System.Drawing.Point(97, 320);
+            this.btnEkle.Location = new System.Drawing.Point(207, 320);
             this.btnEkle.Name = "btnEkle";
-            this.btnEkle.Size = new System.Drawing.Size(69, 46);
+            this.btnEkle.Size = new System.Drawing.Size(41, 46);
             this.btnEkle.TabIndex = 4;
             this.btnEkle.Text = "Ekle";
             this.btnEkle.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -231,27 +229,16 @@ namespace Personel_Kontrol_Sistemi
             // 
             // ımageList1
             // 
-            this.ımageList1.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("ımageList1.ImageStream")));
+            this.ımageList1.ColorDepth = System.Windows.Forms.ColorDepth.Depth8Bit;
+            this.ımageList1.ImageSize = new System.Drawing.Size(16, 16);
             this.ımageList1.TransparentColor = System.Drawing.Color.Transparent;
-            this.ımageList1.Images.SetKeyName(0, "add_12966.png");
-            this.ımageList1.Images.SetKeyName(1, "off_downnearexit_apagado_abajo_6017.png");
             // 
             // btnCikis
             // 
-            this.btnCikis.FlatAppearance.BorderSize = 0;
-            this.btnCikis.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnCikis.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.btnCikis.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnCikis.ImageIndex = 1;
-            this.btnCikis.ImageList = this.ımageList1;
-            this.btnCikis.Location = new System.Drawing.Point(176, 320);
+            this.btnCikis.Location = new System.Drawing.Point(0, 0);
             this.btnCikis.Name = "btnCikis";
-            this.btnCikis.Size = new System.Drawing.Size(72, 45);
-            this.btnCikis.TabIndex = 5;
-            this.btnCikis.Text = "Çıkış";
-            this.btnCikis.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnCikis.UseVisualStyleBackColor = true;
-            this.btnCikis.Click += new System.EventHandler(this.btnCikis_Click);
+            this.btnCikis.Size = new System.Drawing.Size(75, 23);
+            this.btnCikis.TabIndex = 0;
             // 
             // txtAciklama
             // 
@@ -269,7 +256,6 @@ namespace Personel_Kontrol_Sistemi
             this.BackColor = System.Drawing.Color.SkyBlue;
             this.ClientSize = new System.Drawing.Size(261, 378);
             this.Controls.Add(this.txtAciklama);
-            this.Controls.Add(this.btnCikis);
             this.Controls.Add(this.btnEkle);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.label9);

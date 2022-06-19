@@ -29,7 +29,6 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmPersonelListele));
             this.txtPersonelIDAra = new System.Windows.Forms.TextBox();
             this.txtPersonelAdAra = new System.Windows.Forms.TextBox();
             this.txtPersonelSoyadAra = new System.Windows.Forms.TextBox();
@@ -309,37 +308,16 @@
             // 
             // btnCikis
             // 
-            this.btnCikis.FlatAppearance.BorderSize = 0;
-            this.btnCikis.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnCikis.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.btnCikis.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnCikis.ImageIndex = 1;
-            this.btnCikis.ImageList = this.ımageList1;
-            this.btnCikis.Location = new System.Drawing.Point(786, 451);
+            this.btnCikis.Location = new System.Drawing.Point(0, 0);
             this.btnCikis.Name = "btnCikis";
-            this.btnCikis.Size = new System.Drawing.Size(75, 45);
-            this.btnCikis.TabIndex = 22;
-            this.btnCikis.Text = "Çıkış";
-            this.btnCikis.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnCikis.UseVisualStyleBackColor = true;
-            this.btnCikis.Click += new System.EventHandler(this.btnCikis_Click);
+            this.btnCikis.Size = new System.Drawing.Size(75, 23);
+            this.btnCikis.TabIndex = 0;
             // 
             // ımageList1
             // 
-            this.ımageList1.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("ımageList1.ImageStream")));
+            this.ımageList1.ColorDepth = System.Windows.Forms.ColorDepth.Depth8Bit;
+            this.ımageList1.ImageSize = new System.Drawing.Size(16, 16);
             this.ımageList1.TransparentColor = System.Drawing.Color.Transparent;
-            this.ımageList1.Images.SetKeyName(0, "1486503744-backspace-clean-clear-delete-remove-erase_81258.png");
-            this.ımageList1.Images.SetKeyName(1, "off_downnearexit_apagado_abajo_6017.png");
-            this.ımageList1.Images.SetKeyName(2, "system_software_update_22485.png");
-            this.ımageList1.Images.SetKeyName(3, "1486504830-delete-dustbin-empty-recycle-recycling-remove-trash_81361.png");
-            this.ımageList1.Images.SetKeyName(4, "add_12966 (1).png");
-            this.ımageList1.Images.SetKeyName(5, "calendar_office_day_1474.png");
-            this.ımageList1.Images.SetKeyName(6, "organizer_calendar_clock_pencil_10047.png");
-            this.ımageList1.Images.SetKeyName(7, "add_12966.png");
-            this.ımageList1.Images.SetKeyName(8, "increase_25373.png");
-            this.ımageList1.Images.SetKeyName(9, "list_992.png");
-            this.ımageList1.Images.SetKeyName(10, "Menu_icon_icon-icons.com_71858.png");
-            this.ımageList1.Images.SetKeyName(11, "businessapplication_binarytree_tree_negocio_2316.png");
             // 
             // label13
             // 
@@ -376,9 +354,6 @@
             this.btnGuncelle.FlatAppearance.BorderSize = 0;
             this.btnGuncelle.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnGuncelle.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.btnGuncelle.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnGuncelle.ImageIndex = 2;
-            this.btnGuncelle.ImageList = this.ımageList1;
             this.btnGuncelle.Location = new System.Drawing.Point(604, 450);
             this.btnGuncelle.Name = "btnGuncelle";
             this.btnGuncelle.Size = new System.Drawing.Size(95, 46);
@@ -393,12 +368,9 @@
             this.btnSil.FlatAppearance.BorderSize = 0;
             this.btnSil.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSil.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.btnSil.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnSil.ImageIndex = 3;
-            this.btnSil.ImageList = this.ımageList1;
-            this.btnSil.Location = new System.Drawing.Point(705, 451);
+            this.btnSil.Location = new System.Drawing.Point(842, 451);
             this.btnSil.Name = "btnSil";
-            this.btnSil.Size = new System.Drawing.Size(75, 45);
+            this.btnSil.Size = new System.Drawing.Size(32, 45);
             this.btnSil.TabIndex = 22;
             this.btnSil.Text = "Sil";
             this.btnSil.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -452,8 +424,6 @@
             this.Controls.Add(this.lblToplamMaas);
             this.Controls.Add(this.txtAciklama);
             this.Controls.Add(this.btnSil);
-            this.Controls.Add(this.btnCikis);
-            this.Controls.Add(this.btnGuncelle);
             this.Controls.Add(this.label13);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.label11);

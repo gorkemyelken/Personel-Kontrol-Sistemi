@@ -40,8 +40,6 @@
             this.txtAdiSoyadi = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.btnCikis = new System.Windows.Forms.Button();
-            this.ımageList1 = new System.Windows.Forms.ImageList(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewPersoneller)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewMesailer)).BeginInit();
             this.SuspendLayout();
@@ -149,36 +147,12 @@
             this.label3.Text = "Personel Adı Soyadı:";
             this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
-            // btnCikis
-            // 
-            this.btnCikis.FlatAppearance.BorderSize = 0;
-            this.btnCikis.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnCikis.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.btnCikis.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnCikis.ImageIndex = 0;
-            this.btnCikis.ImageList = this.ımageList1;
-            this.btnCikis.Location = new System.Drawing.Point(857, 413);
-            this.btnCikis.Name = "btnCikis";
-            this.btnCikis.Size = new System.Drawing.Size(77, 39);
-            this.btnCikis.TabIndex = 31;
-            this.btnCikis.Text = "Çıkış";
-            this.btnCikis.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnCikis.UseVisualStyleBackColor = true;
-            this.btnCikis.Click += new System.EventHandler(this.btnCikis_Click);
-            // 
-            // ımageList1
-            // 
-            this.ımageList1.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("ımageList1.ImageStream")));
-            this.ımageList1.TransparentColor = System.Drawing.Color.Transparent;
-            this.ımageList1.Images.SetKeyName(0, "off_downnearexit_apagado_abajo_6017.png");
-            // 
             // frmPersonelMesaileri
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.SkyBlue;
             this.ClientSize = new System.Drawing.Size(941, 463);
-            this.Controls.Add(this.btnCikis);
             this.Controls.Add(this.txtAdiSoyadi);
             this.Controls.Add(this.txtPersonelID);
             this.Controls.Add(this.txtMesaiIDAra);
@@ -212,7 +186,5 @@
         private System.Windows.Forms.TextBox txtAdiSoyadi;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Button btnCikis;
-        private System.Windows.Forms.ImageList ımageList1;
     }
 }

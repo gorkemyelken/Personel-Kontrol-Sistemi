@@ -29,7 +29,6 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmMesaiEkle));
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -48,7 +47,6 @@
             this.comboYil = new System.Windows.Forms.ComboBox();
             this.txtAciklama = new System.Windows.Forms.TextBox();
             this.btnMesaiEkle = new System.Windows.Forms.Button();
-            this.btnCikis = new System.Windows.Forms.Button();
             this.label8 = new System.Windows.Forms.Label();
             this.ımageList1 = new System.Windows.Forms.ImageList(this.components);
             this.SuspendLayout();
@@ -236,34 +234,14 @@
             this.btnMesaiEkle.FlatAppearance.BorderSize = 0;
             this.btnMesaiEkle.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnMesaiEkle.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.btnMesaiEkle.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnMesaiEkle.ImageIndex = 1;
-            this.btnMesaiEkle.ImageList = this.ımageList1;
-            this.btnMesaiEkle.Location = new System.Drawing.Point(15, 320);
+            this.btnMesaiEkle.Location = new System.Drawing.Point(127, 319);
             this.btnMesaiEkle.Name = "btnMesaiEkle";
-            this.btnMesaiEkle.Size = new System.Drawing.Size(111, 46);
+            this.btnMesaiEkle.Size = new System.Drawing.Size(82, 46);
             this.btnMesaiEkle.TabIndex = 7;
             this.btnMesaiEkle.Text = "Mesai Ekle";
             this.btnMesaiEkle.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnMesaiEkle.UseVisualStyleBackColor = true;
             this.btnMesaiEkle.Click += new System.EventHandler(this.btnMesaiEkle_Click);
-            // 
-            // btnCikis
-            // 
-            this.btnCikis.FlatAppearance.BorderSize = 0;
-            this.btnCikis.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnCikis.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.btnCikis.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnCikis.ImageIndex = 0;
-            this.btnCikis.ImageList = this.ımageList1;
-            this.btnCikis.Location = new System.Drawing.Point(134, 320);
-            this.btnCikis.Name = "btnCikis";
-            this.btnCikis.Size = new System.Drawing.Size(75, 46);
-            this.btnCikis.TabIndex = 7;
-            this.btnCikis.Text = "Çıkış";
-            this.btnCikis.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnCikis.UseVisualStyleBackColor = true;
-            this.btnCikis.Click += new System.EventHandler(this.btnCikis_Click);
             // 
             // label8
             // 
@@ -277,10 +255,9 @@
             // 
             // ımageList1
             // 
-            this.ımageList1.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("ımageList1.ImageStream")));
+            this.ımageList1.ColorDepth = System.Windows.Forms.ColorDepth.Depth8Bit;
+            this.ımageList1.ImageSize = new System.Drawing.Size(16, 16);
             this.ımageList1.TransparentColor = System.Drawing.Color.Transparent;
-            this.ımageList1.Images.SetKeyName(0, "off_downnearexit_apagado_abajo_6017.png");
-            this.ımageList1.Images.SetKeyName(1, "organizer_calendar_clock_pencil_10047.png");
             // 
             // frmMesaiEkle
             // 
@@ -289,7 +266,6 @@
             this.BackColor = System.Drawing.Color.SkyBlue;
             this.ClientSize = new System.Drawing.Size(224, 377);
             this.Controls.Add(this.label8);
-            this.Controls.Add(this.btnCikis);
             this.Controls.Add(this.btnMesaiEkle);
             this.Controls.Add(this.txtAciklama);
             this.Controls.Add(this.comboYil);
@@ -337,7 +313,6 @@
         private System.Windows.Forms.ComboBox comboYil;
         private System.Windows.Forms.TextBox txtAciklama;
         private System.Windows.Forms.Button btnMesaiEkle;
-        private System.Windows.Forms.Button btnCikis;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.ImageList ımageList1;
     }
